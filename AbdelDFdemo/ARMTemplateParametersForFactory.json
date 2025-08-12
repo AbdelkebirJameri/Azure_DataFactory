@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AbdelDFdemo"
+		},
+		"Inputblobb_connectionString": {
+			"value": ""
+		},
+		"OutputSql_password": {
+			"value": ""
+		},
+		"OutputSql_properties_typeProperties_server": {
+			"value": "tcp:abdeldemo.database.windows.net,1433"
+		},
+		"OutputSql_properties_typeProperties_database": {
+			"value": "abde_demo"
+		},
+		"OutputSql_properties_typeProperties_userName": {
+			"value": "abdel"
+		}
+	}
+}
