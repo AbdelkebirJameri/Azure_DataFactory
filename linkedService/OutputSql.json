@@ -1,0 +1,18 @@
+{
+	"name": "OutputSql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "OutputSql databae (SQL Azure db ) ",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "tcp:abdeldemo.database.windows.net,1433",
+			"database": "abde_demo",
+			"encrypt": "True",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "abdel",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZDOTQxMjgxLUQ2RUEtNDJDQS04Mzc4LTExNDQyQUM3MDQ4MV8yZGY0N2I4ZC0xZGQzLTQ0YWQtYmFjYS1hYzRiNWVmY2JjZWMiDQp9"
+		}
+	}
+}
